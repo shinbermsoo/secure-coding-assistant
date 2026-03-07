@@ -1,0 +1,24 @@
+{
+  "questions": {
+    "basic": [
+      {"q": "현재 OS는 무엇인가요? (Windows/macOS/Linux)", "id": "os"},
+      {"q": "코딩 경험이 있나요? (전혀없음/약간/Python기본)", "id": "skill"},
+      {"q": "RAM은 8GB 이상인가요?", "id": "hardware"}
+    ],
+    "security": [
+      {"q": "어떤 데이터를 다룰 건가요? (개인/금융/웹)", "id": "data_type"},
+      {"q": "공격 유형 걱정? (인젝션/파일탈출/네트워크)", "id": "threat"},
+      {"q": "API키 암호화 방식? (AES256/기본)", "id": "encryption"}
+    ],
+    "function": [
+      {"q": "프로그램 목적은? (자동화/봇/분석)", "id": "purpose"},
+      {"q": "입력/출력 형태? (파일/API/GUI)", "id": "io"},
+      {"q": "반복 실행 필요? (매일/일회성)", "id": "schedule"}
+    ],
+    "code": [
+      {"q": "주요 단계 몇 개? (1→2→3)", "id": "steps"},
+      {"q": "에러시 처리법? (롤백/알림)", "id": "error"},
+      {"q": "외부 라이브러리? (requests/pandas/없음)", "id": "libs"}
+    ]
+  }
+}
